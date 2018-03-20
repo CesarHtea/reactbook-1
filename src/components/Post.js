@@ -16,13 +16,13 @@ class Post extends Component {
         <footer>
           <ul className='post__actions'>
             <li>
-              <i className='fa fa-thumbs-o-up'></i> Comment
+              <i className='fa fa-thumbs-o-up'></i> Like
             </li>
             <li>
               <i className='fa fa-comment-o'></i> Comment
             </li>
             <li>
-              <i className='fa fa-share'></i> Comment
+              <i className='fa fa-share'></i> Share
             </li>
           </ul>
         </footer>
