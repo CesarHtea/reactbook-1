@@ -13,6 +13,19 @@ class Post extends Component {
             <p><time>1 hr</time> · <i className='fa fa-globe'></i></p>
           </div>
         </header>
+        <footer>
+          <ul className='post__actions'>
+            <li>
+              <i className='fa fa-thumbs-o-up'></i> Comment
+            </li>
+            <li>
+              <i className='fa fa-comment-o'></i> Comment
+            </li>
+            <li>
+              <i className='fa fa-share'></i> Comment
+            </li>
+          </ul>
+        </footer>
       </div>
     );
   }
