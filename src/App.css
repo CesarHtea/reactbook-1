@@ -41,3 +41,8 @@ p {
   display: flex;
   justify-content: space-around;
 }
+
+.post__content {
+  padding: 10px 0;
+  font-size: 14px;
+}

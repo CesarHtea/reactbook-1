@@ -13,6 +13,9 @@ class Post extends Component {
             <p><time>1 hr</time> · <i className='fa fa-globe'></i></p>
           </div>
         </header>
+        <div className='post__content'>
+          <p>"On Monday, having witnessed Facebook’s refusal to take any meaningful responsibility in regards to the Cambridge Analytica story, I deleted my account in disgust."</p>
+        </div>
         <footer>
           <ul className='post__actions'>
             <li>
