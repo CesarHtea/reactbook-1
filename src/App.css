@@ -25,5 +25,9 @@ p {
 .post__image {
   width: 40px;
   height: auto;
+  margin-right: 10px;
 }
 
+.post__header {
+  display: flex;
+}
