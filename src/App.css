@@ -66,12 +66,29 @@ p {
  ------------------------------------*/
 .form {
   height: 30px;
-  outline: 1px solid white;
 }
-.form input {
 
+.form input {
+  width: 400px;
+  font-size: 16px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  padding: 0 5px;
 }
-.form button {}
+
+.form input:focus {
+  outline: none;
+}
+
+.form button {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.form input,
+.form button {
+  border: 0;
+}
 
 /*------------------------------------
  Grid
