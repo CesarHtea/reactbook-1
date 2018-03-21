@@ -5,9 +5,9 @@ class Header extends Component {
     return (
       <nav className='grid grid--justify header'>
         <div className='grid'>
-          <img className='header__image' src='https://10s7rk1sjlds1cylpm4fav81-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/480px-Facebook_icon_2013.svg_.png' />
+          <img className='header__image' src='https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg' />
           <form>
-            <div className='form'>
+            <div className='form grid'>
               <input type='text' placeholder='Search' />
               <button>
                 <i className='fa fa-search'></i>

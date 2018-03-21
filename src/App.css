@@ -46,3 +46,36 @@ p {
   padding: 10px 0;
   font-size: 14px;
 }
+
+/*------------------------------------
+ Header
+ ------------------------------------*/
+.header {
+  background-color: #3B579C;
+  height: 42px;
+  align-items: center;
+}
+
+.header__image {
+  width: 30px;
+  height: 30px;
+}
+
+/*------------------------------------
+ Form (Header)
+ ------------------------------------*/
+.form {
+  height: 30px;
+  outline: 1px solid white;
+}
+.form input {
+
+}
+.form button {}
+
+/*------------------------------------
+ Grid
+ ------------------------------------*/
+.grid {
+  display: flex;
+}
