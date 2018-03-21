@@ -16,11 +16,11 @@ class Header extends Component {
           </form>
         </div>
         <div>
-          <ul>
+          <ul className='header__actions grid v-center'>
             <li>
-              <a href='#'>
-                <img src='https://images-na.ssl-images-amazon.com/images/M/MV5BOWViYjUzOWMtMzRkZi00MjNkLTk4M2ItMTVkMDg5MzE2ZDYyXkEyXkFqcGdeQXVyODQwNjM3NDA@._V1_UY256_CR36,0,172,256_AL_.jpg' />
-                Mr Robot
+              <a href='#' className='grid v-center'>
+                <img className='avatar' src='https://images-na.ssl-images-amazon.com/images/M/MV5BOWViYjUzOWMtMzRkZi00MjNkLTk4M2ItMTVkMDg5MzE2ZDYyXkEyXkFqcGdeQXVyODQwNjM3NDA@._V1_UY256_CR36,0,172,256_AL_.jpg' />
+                <span>Mr Robot</span>
               </a>
             </li>
             <li>
