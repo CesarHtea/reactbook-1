@@ -15,7 +15,19 @@ class Header extends Component {
             </div>
           </form>
         </div>
-        <div></div>
+        <div>
+          <ul>
+            <li>
+              <a href='#'>
+                <img src='https://images-na.ssl-images-amazon.com/images/M/MV5BOWViYjUzOWMtMzRkZi00MjNkLTk4M2ItMTVkMDg5MzE2ZDYyXkEyXkFqcGdeQXVyODQwNjM3NDA@._V1_UY256_CR36,0,172,256_AL_.jpg' />
+                Mr Robot
+              </a>
+            </li>
+            <li>
+              <a href='#'>Home</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     );
   }
