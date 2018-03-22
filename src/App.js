@@ -31,7 +31,9 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <Switch></Switch>
+        <Switch>
+          <Route />
+        </Switch>
       </div>
     );
   }
