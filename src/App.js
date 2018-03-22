@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-route-dom';
+import { Switch, Route } from 'react-router-dom';
 import request from 'superagent';
 
 import Header from './components/Header';
 import Post from './components/Post';
+import Home from './components/Home';
 
 import logo from './logo.svg';
 import './App.css';
@@ -32,7 +33,7 @@ class App extends Component {
       <div>
         <Header />
         <Switch>
-          <Route exact path='' component={} />
+          <Route exact path='/' component={Home} />
         </Switch>
       </div>
     );
