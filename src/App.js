@@ -5,6 +5,7 @@ import request from 'superagent';
 import Header from './components/Header';
 import Post from './components/Post';
 import Home from './components/Home';
+import Profile from './components/Profile';
 
 import logo from './logo.svg';
 import './App.css';
@@ -16,6 +17,7 @@ class App extends Component {
         <Header />
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/me' component={Profile} />
         </Switch>
       </div>
     );
