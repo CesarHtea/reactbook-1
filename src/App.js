@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import request from 'superagent';
 
 import Header from './components/Header';
 import Post from './components/Post';
@@ -13,6 +14,14 @@ class App extends Component {
     this.state = {
       data: []
     };
+  }
+
+  componentDidMount() {
+    request
+      .get('https://randomuser.me/api/?results=20')
+      .then(response => {
+        console.log(response)
+      });
   }
 
   render() {
