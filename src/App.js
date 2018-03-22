@@ -10,24 +10,6 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      data: []
-    };
-  }
-
-  componentDidMount() {
-    request
-      .get('https://randomuser.me/api/?results=20')
-      .then(response => {
-        this.setState({
-          data: response.body.results
-        })
-      });
-  }
-
   render() {
     return (
       <div>
