@@ -11,7 +11,9 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <Post />
+        {this.state.data.map(function(p) {
+          return <Post />
+        })}
       </div>
     );
   }
