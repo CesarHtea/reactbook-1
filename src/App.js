@@ -32,9 +32,6 @@ class App extends Component {
       <div>
         <Header />
         <Switch></Switch>
-        {this.state.data.map(function(p, i) {
-          return <Post key={i} info={p} />
-        })}
       </div>
     );
   }
