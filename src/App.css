@@ -26,6 +26,8 @@ p {
   width: 40px;
   height: auto;
   margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .post__header {
