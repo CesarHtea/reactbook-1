@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Switch, Route } from 'react-route-dom';
 import request from 'superagent';
 
 import Header from './components/Header';
