@@ -32,7 +32,7 @@ class App extends Component {
       <div>
         <Header />
         <Switch>
-          <Route />
+          <Route exact path='' component={} />
         </Switch>
       </div>
     );
