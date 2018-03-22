@@ -20,7 +20,9 @@ class App extends Component {
     request
       .get('https://randomuser.me/api/?results=20')
       .then(response => {
-        console.log(response)
+        this.setState({
+          data: response.body.results
+        })
       });
   }
 
@@ -28,8 +30,8 @@ class App extends Component {
     return (
       <div>
         <Header />
-        {this.state.data.map(function(p) {
-          return <Post />
+        {this.state.data.map(function(p, i) {
+          return <Post key={i} />
         })}
       </div>
     );
